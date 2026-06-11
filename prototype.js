@@ -1,5 +1,5 @@
-// Prototypes are used to share methods and functions with all instances of an object.
-// Method 1
+// Prototypes are used to share properties and functions with all instances of an object.
+// Method 1 Using __proto__ :
 let mac = {
     brand : "MacBook Air",
     chip : "M4"
@@ -15,7 +15,7 @@ let myBrand = {
 }
 // console.log(myBrand.__proto__)
 
-//Method 2 Used frequently
+//Method 2 Using methods of object (Used Mostly) : 
 Object.setPrototypeOf(myBrand, mac)
 
 console.log(Object.getPrototypeOf(myBrand))
