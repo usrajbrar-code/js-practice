@@ -1,6 +1,6 @@
-// Constructor Function : It is used to create objects easily. It's name must begin with a capital letter. // In a class it is used with a constructor keyword and no name.
+// Constructor Function : It is used to create objects easily. It's name must begin with a capital letter (convention) . // In a class it is used with a constructor keyword and no name.
 
-// this keyword is used to refer to the context (new object which is accessing its properties and functions)
+// this keyword is used to refer to the latest context (new object which is accessing its properties and functions)
 
 // 1 Creating Properties in a constructor function to be accessed by different objects
 function Laptop(brand, ram){
